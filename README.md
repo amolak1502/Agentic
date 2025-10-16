@@ -15,7 +15,7 @@ The agent automatically selects the appropriate tool based on user queries.
 Install the required Python packages:
 
 ```bash
-pip install python-dotenv langchain-groq langgraph tavily supadata langchain
+pip install python-dotenv langchain-groq langgraph tavily-python supadata langchain
 ```
 Create a `.env` file in the project root with the following keys:
 
