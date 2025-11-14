@@ -57,7 +57,7 @@ def transcribe_video(url: str) -> str:
 def get_weather(location: str):
 
     """Get weather by location"""
-    tavily_client = TavilyClient(api_key="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")
+    tavily_client = TavilyClient(api_key="YOUR_API_KEY")
     response = tavily_client.search(f"Get whether for {location}")
 
     print(location)
@@ -125,3 +125,4 @@ if __name__ == "__main__":
     main()
     # print(get_weather("mumbai").get("results")[0].get("content"))
     # print(transcribe_youtube("https://www.instagram.com/reel/DPV20OkkePE/?igsh=b2k3MmlnbDRlN2k1"))
+
